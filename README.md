@@ -42,6 +42,23 @@ The **Argoverse 2** dataset is a high-dimensional, multi-agent dataset specifica
 # Model design
 
 # File Structure
+```
+.
+├── __pycache__
+├── models/
+│   ├── __pycache__
+│   ├── CNNModelClass.py
+│   ├── LSTMModelClass.py
+│   ├── LinearRegressionModelClass.py
+│   └── MLPModelClass.py
+├── .DS_store
+├── .gitignore
+├── DatasetClass.py
+├── LICENSE
+├── README.md
+├── data-modeling.ipynb
+└── models.ipynb
+```
 
 # How to run
 
