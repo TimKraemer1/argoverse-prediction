@@ -4,7 +4,7 @@ This project was completed as part of the CSE 251B curriculum — a quarter-long
 
 [kaggle link](https://www.kaggle.com/competitions/cse-251-b-2025) 📲
 
-The models that were researched and presented were collaborated on in conjunction with **Angus Yick (UCSD)** and **Mathew Raju (UCSD)**.
+The models that were researched and presented were collaborated on in conjunction with **[Angus Yick](https://www.linkedin.com/in/angus-yick/) (UCSD)** and **[Mathew Raju](https://www.linkedin.com/in/mathew-raju-6b4517171/) (UCSD)**.
 
 # Project Overview
 
