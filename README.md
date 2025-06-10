@@ -1,8 +1,10 @@
 # Argoverse Self-Driving Trajectory Prediction
 
-This project was completed as part of the CSE 251B curriculum — a quarter-long deep learning research course at UC San Diego (Spring 2025). The project was structured as a Kaggle competition, which you can find here:
+This project was completed as part of the CSE 251B curriculum — a quarter-long deep learning research course at UC San Diego (Spring 2025). The project was structured as a private, class wide Kaggle competition. Competition and model details can be found on our final slidedeck:
 
-[kaggle link](https://www.kaggle.com/competitions/cse-251-b-2025) 📲
+📺[Google Slides](https://docs.google.com/presentation/d/1inEEvNOfXJcDM9XWXoIUdn0xErSDEvErx8B4nrW6moM/edit?usp=sharing)
+
+A copy of our final report detailing specific model architecture, research, and experimentation results can also be found here:
 
 The models that were researched and presented were collaborated on in conjunction with **[Angus Yick](https://www.linkedin.com/in/angus-yick/) (UCSD)** and **[Mathew Raju](https://www.linkedin.com/in/mathew-raju-6b4517171/) (UCSD)**.
 
