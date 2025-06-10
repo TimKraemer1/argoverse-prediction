@@ -26,8 +26,8 @@ class TrajectoryDatasetTrain(Dataset):
     def __getitem__(self, idx):
         scene = self.data[idx]  # Shape: (50, 110, 6)
 
-        # Take the first 30 agents, since smaller the agent index the more important it is
-        hist = scene[:20, :50, :].copy()
+        # Take the first 50 agents, since smaller the agent index the more important it is
+        hist = scene[:50, :50, :].copy()
         future = torch.tensor(scene[0, 50:, :2].copy(), dtype=torch.float32)
 
         # === Optional Data Augmentation ===
@@ -76,7 +76,7 @@ class TrajectoryDatasetTest(Dataset):
     def __getitem__(self, idx):
         # Testing data only contains historical trajectory
         scene = self.data[idx]  # (50, 50, 6)
-        hist = scene[:20, :, :].copy()
+        hist = scene[:50, :, :].copy()
         
         origin = hist[0, 49, :2].copy()
         hist[..., :2] = hist[..., :2] - origin
