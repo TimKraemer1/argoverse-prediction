@@ -66,7 +66,3 @@ Our model predicts future trajectories of a self-driving ego vehicle using a seq
 ├── data-modeling.ipynb
 └── models.ipynb
 ```
-
-# How to run
-
-## Requirements
