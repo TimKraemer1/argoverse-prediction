@@ -24,7 +24,7 @@ class LSTMAttention(nn.Module):
 
 
     def forward(self, data):
-        # Claude was used to help with tensor dimensions in attention calculation layers
+        # Claude was used to help with tensor dimensions in attention calculation layers, as well as come up with attention design ideas
         
         x = data.x  # Expected shape: (batch_size * num_agents, 50, 6)
         
